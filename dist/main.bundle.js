@@ -65,27 +65,31 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sub__ = __webpack_require__(1);
 
+
+var _sub = __webpack_require__(1);
 
 var message = 'Hello World';
 
-Object(__WEBPACK_IMPORTED_MODULE_0__sub__["a" /* hello */])(message);
+(0, _sub.hello)(message);
 
 /***/ }),
 /* 1 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return hello; });
-var hello = function hello(message) {
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var hello = exports.hello = function hello(message) {
   console.log(message);
 };
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=bundle.js.map
+//# sourceMappingURL=main.bundle.js.map
