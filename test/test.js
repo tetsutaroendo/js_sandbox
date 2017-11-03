@@ -1,4 +1,4 @@
-var assert = require('power-assert');
+const assert = require('power-assert');
 describe('Array', () => {
   describe('#indexOf()', () => {
     it('should return -1 when the value is not present', () => {
