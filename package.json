@@ -1,10 +1,10 @@
 {
   "name": "js_sandbox",
   "version": "1.0.0",
-  "description": "",
+  "description": "The base of js project.",
   "main": "main.js",
   "scripts": {
-    "test": "mocha",
+    "test": "NODE_PATH=src/ mocha --require babel-register --recursive",
     "lint": "./node_modules/.bin/eslint ./",
     "lt": "npm run lint & npm run test",
     "clean": "rimraf dist",
@@ -12,7 +12,7 @@
     "build": "npm run lt & npm run webpack",
     "watch": "webpack -d --watch"
   },
-  "author": "",
+  "author": "Tetsutaro Endo",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",

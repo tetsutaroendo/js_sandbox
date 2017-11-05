@@ -72,9 +72,13 @@
 
 var _sub = __webpack_require__(1);
 
+var _sub2 = _interopRequireDefault(_sub);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 var message = 'Hello World';
 
-(0, _sub.hello)(message);
+(0, _sub2.default)(message);
 
 /***/ }),
 /* 1 */

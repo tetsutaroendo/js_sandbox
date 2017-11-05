@@ -1,4 +1,4 @@
-import {hello} from 'sub';
+import hello from 'sub';
 
 const message = 'Hello World';
 
