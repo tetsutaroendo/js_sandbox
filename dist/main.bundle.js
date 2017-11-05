@@ -70,25 +70,11 @@
 "use strict";
 
 
-var _sub = __webpack_require__(1);
+var _sub = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"sub\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 var message = 'Hello World';
 
 (0, _sub.hello)(message);
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var hello = exports.hello = function hello(message) {
-  console.log(message);
-};
 
 /***/ })
 /******/ ]);

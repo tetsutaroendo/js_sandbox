@@ -5,6 +5,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.bundle.js'
   },
+  resolve: { modules: [ path.resolve(__dirname, 'src') ] },
   module: {
     rules: [
       {
