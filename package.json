@@ -5,8 +5,12 @@
   "main": "main.js",
   "scripts": {
     "test": "mocha",
+    "lint": "./node_modules/.bin/eslint ./",
+    "lt": "npm run lint & npm run test",
+    "clean": "rimraf dist",
     "webpack": "webpack",
-    "lint": "./node_modules/.bin/eslint ./"
+    "build": "npm run lt & npm run webpack",
+    "watch": "webpack -d --watch"
   },
   "author": "",
   "license": "ISC",
